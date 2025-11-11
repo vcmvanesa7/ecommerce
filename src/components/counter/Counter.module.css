@@ -1,0 +1,18 @@
+.counter {
+  text-align: center;
+  margin: 20px;
+}
+.counterTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.counterButton {
+  font-size: 18px;
+  margin: 0 5px;
+  padding: 5px 10px;            
+    cursor: pointer;    
+    border: none;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 5px;
+}       
