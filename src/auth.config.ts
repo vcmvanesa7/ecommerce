@@ -1,22 +1,25 @@
+
 import type { NextAuthConfig } from 'next-auth';
 
-export const authConfig = {
+export const authConfig: NextAuthConfig = {
+  providers: [],
   pages: {
     signIn: '/login',
   },
   callbacks: {
-    authorized({ auth, request: { nextUrl } }) {
+    authorized({ auth, request }) {
       const isLoggedIn = !!auth?.user;
-      const isOnDashboard = nextUrl.pathname.startsWith('/dashboard');
+      const pathname = request.nextUrl.pathname;
       
-      if (isOnDashboard) {
-        if (isLoggedIn) return true;
-        return false;
-      } else if (isLoggedIn) {
-        return Response.redirect(new URL('/dashboard', nextUrl));
+      if (pathname.startsWith('/dashboard')) {
+        return isLoggedIn; // si no está logueado → bloquea
       }
+
+      if (pathname === '/login' && isLoggedIn) {
+        return Response.redirect(new URL('/dashboard', request.nextUrl));
+      }
+
       return true;
     },
   },
-  providers: [],
-} satisfies NextAuthConfig;
+};

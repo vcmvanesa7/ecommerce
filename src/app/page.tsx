@@ -10,7 +10,7 @@ export default function Demo() {
   }
 
   return (
-    <>
+    <><h1>Probando Cypress</h1>
       <Button label="Click me" onClick={handleClick} />
       <Counter />
     </>

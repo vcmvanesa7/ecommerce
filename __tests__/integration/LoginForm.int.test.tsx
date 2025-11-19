@@ -6,7 +6,6 @@ import userEvent from '@testing-library/user-event';
 
 //Componente que vamos a probar
 import LoginForm from '@/components/LoginForm';
-import { json } from 'zod';
 
 
 //Antes de cada test, reemṕlazamos fetch por un mock
