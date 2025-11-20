@@ -1,7 +1,7 @@
 // app/api/register/route.ts
 import { NextResponse } from "next/server";
 import dbConnection from "@/lib/dbconnection";
-import { User } from "@/db/models";
+import { User } from "@/db/models/Users/users";
 import bcrypt from "bcrypt";
 import { z } from "zod";
 

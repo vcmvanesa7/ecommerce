@@ -11,8 +11,8 @@ export const authConfig: NextAuthConfig = {
       const isLoggedIn = !!auth?.user;
       const pathname = request.nextUrl.pathname;
       
-      if (pathname.startsWith('/dashboard')) {
-        return isLoggedIn; // si no está logueado → bloquea
+      if (pathname.startsWith('/login')) {
+        return isLoggedIn; 
       }
 
       if (pathname === '/login' && isLoggedIn) {

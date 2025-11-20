@@ -1,9 +1,8 @@
-// auth.ts (NextAuth v5 correcto)
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import { authConfig } from "./auth.config";
 import dbConnection from "@/lib/dbconnection";
-import { User } from "@/db/models";
+import { User } from "@/db/models/Users/users";
 import bcrypt from "bcrypt";
 import { z } from "zod";
 
