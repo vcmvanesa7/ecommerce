@@ -1,0 +1,14 @@
+{
+  "product": {
+    "title": "Iniciar Sesión",
+    "nameProduct": "Name Product",
+    "nameProductPlaceholder": "Enter the product name",
+    "descriptionProduct": "Product Description",
+    "descriptionProductPlaceholder": "Enter the product description",
+    "priceProduct": "Product Price",
+    "priceProductPlaceholder": "Enter the product price",
+    "errors": {
+      "emailRequired": "EEmail is required"
+    }
+  }
+}

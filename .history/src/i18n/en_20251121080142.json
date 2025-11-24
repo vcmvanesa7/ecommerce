@@ -1,0 +1,10 @@
+{
+  "product": {
+    "title": "Iniciar Sesión",
+    "nameProduct": "Email",
+    "nameProductPlaceholder": "Ingrese su email",
+    "errors": {
+      "emailRequired": "El email es requerido"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "login": {
+    "title": "Iniciar Sesión",
+    "email": "Email",
+    "emailPlaceholder": "Ingrese su email",
+    "errors": {
+      "emailRequired": "El email es requerido"
+    }
+  }
+}

@@ -30,10 +30,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <LanguageProvider>
+        <import { LanguageProvider } from "@/contexts/LanguageContext";
+>
           {children}
           <Toaster position="top-right" richColors />
-        </LanguageProvider>
+        </ClientProviders>
       </body>
     </html>
   );

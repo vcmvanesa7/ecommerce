@@ -1,0 +1,48 @@
+{
+  "product": {
+    "title": "Crear Nuevo Producto",
+
+    "labels": {
+      "name": "Nombre del producto *",
+      "description": "Descripción *",
+      "price": "Precio *",
+      "file": "Archivo *"
+    },
+
+    "buttons": {
+      "submit": "Crear Producto",
+      "submitting": "Creando..."
+    },
+
+    "preview": {
+      "alt": "Vista previa"
+    },
+
+    "success": {
+      "created": "Producto creado correctamente"
+    },
+
+    "errors": {
+      "noFile": "Debes seleccionar un archivo",
+      "createFailed": "Error al crear producto",
+      "unexpected": "Ocurrió un error inesperado",
+      "invalidImage": "El archivo debe ser una imagen válida"
+    },
+
+    "yup": {
+      "nameProductRequired": "El nombre del producto es obligatorio",
+      "descriptionRequired": "La descripción es obligatoria",
+      "priceRequired": "El precio es obligatorio",
+      "priceMin": "El precio debe ser mayor o igual a 0",
+      "fileRequired": "Debes seleccionar un archivo"
+    },
+
+    "server": {
+      "duplicate": "El producto ya existe",
+      "invalidFile": "El archivo enviado no es válido",
+      "missingFields": "Faltan campos obligatorios",
+      "unauthorized": "No tienes permisos para realizar esta acción",
+      "internalError": "Error interno del servidor"
+    }
+  }
+}

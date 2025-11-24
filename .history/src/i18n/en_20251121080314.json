@@ -1,0 +1,12 @@
+{
+  "product": {
+    "title": "Iniciar Sesión",
+    "nameProduct": "Name Product",
+    "nameProductPlaceholder": "Enter the product name",
+    "descriptionProduct": "Descripción del producto",
+    "descriptionProductPlaceholder": "Ingrese la descripción del producto",
+    "errors": {
+      "emailRequired": "El email es requerido"
+    }
+  }
+}

@@ -110,7 +110,7 @@ export default function CreateProductPage() {
 
   return (
     <div>
-      <LanguageSwitcher/>
+      
       <Card className="max-w-2xl mx-auto mt-6 shadow-lg rounded-lg">
         <CardBody className="p-6">
           <h1 className="text-2xl font-bold mb-6 text-center">

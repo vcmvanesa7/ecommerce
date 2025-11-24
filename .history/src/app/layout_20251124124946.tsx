@@ -27,14 +27,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <LanguageProvider>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <LanguageProvider>
           {children}
           <Toaster position="top-right" richColors />
-        </LanguageProvider>
       </body>
+        </LanguageProvider>
     </html>
   );
 }
